@@ -1,0 +1,43 @@
+
+label{
+    font-size: 25px;
+    color: rgb(35, 96, 76);
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    gap: 30px;
+    font-size: 19px;
+   
+    
+}
+.question{
+    color: rgb(35, 96, 76);
+    font-size: 25px;
+
+}
+
+
+input::-ms-value{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

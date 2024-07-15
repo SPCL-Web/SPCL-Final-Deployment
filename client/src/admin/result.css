@@ -1,0 +1,48 @@
+.result{
+    display: flex;
+    align-items: center
+    ;
+    justify-content: center;
+
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+
+.flex-center{
+    height: fit-content;
+    width: 200px;
+    background-color: aquamarine;
+
+    margin: 0 auto;
+}
+
+.flex{
+    font-size: 20px;
+    border-bottom: 1.5px dotted gray;
+
+}
+
+.restart{
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: aquamarine;
+    font-size: larger;
+    color: aquamarine;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
