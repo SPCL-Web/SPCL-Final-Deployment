@@ -40,7 +40,7 @@ app.use(express.urlencoded({ extended:true})); // To Parse form data in the requ
 app.use(express.json());
 app.use(cors());
 dbConnect();
-app.use(express.static(path.join(__dirname, './client/public')));
+app.use(express.static(path.join(__dirname, './client/build')));
 
 
 
@@ -61,7 +61,7 @@ app.use('/api/v1/quiz',QuizRoutes)
 
 // Catch-all route to serve React application for any route not handled by the above
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './client/public/index.html'));
+    res.sendFile(path.join(__dirname, './client/build/index.html'));
   });
 
 
