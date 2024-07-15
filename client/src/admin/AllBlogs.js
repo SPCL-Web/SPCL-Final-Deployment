@@ -76,7 +76,7 @@ const AllBlogs = () => {
     <div className=''>
 
 
-      <AdminMenu />
+     
 
 
       {
@@ -242,16 +242,16 @@ const AllBlogs = () => {
 
                   <div className="previous-post">
                     <div className="prev-icon">
-                      <div className="p-icon"><FaArrowLeftLong /></div>
-                      <p className="prev-post"> Previous Post </p>
+                      {/* <div className="p-icon"><FaArrowLeftLong /></div>
+                      <p className="prev-post"> Previous Post </p> */}
                     </div>
 
                   </div>
 
 
                   <div className="prev-icon">
-                    <p className="next-post"> Next Post        </p>
-                    <div className="n-icon"> <FaArrowRightLong /></div>
+                    {/* <p className="next-post"> Next Post        </p>
+                    <div className="n-icon"> <FaArrowRightLong /></div> */}
                   </div>
 
 

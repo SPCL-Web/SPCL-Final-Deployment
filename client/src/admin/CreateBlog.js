@@ -819,17 +819,7 @@ const CreateBlog = () => {
 
                     <div className="like">
 
-                      {
-                        liked ?<>
-                        <AiFillLike onClick={handleLike} className='like-icon' />
-                        <p>{likes} </p></>: (
-                         <>
-                          <SlLike className='like-icon' onClick={handleLike} /> 
-                          <p>{likes} </p>
-                         </>
-                        )
-
-                      }
+                     
                    
                     </div>
 
@@ -837,18 +827,12 @@ const CreateBlog = () => {
                     <div className="post">
 
                       <div className="previous-post">
-                        <div className="prev-icon">
-                          <div className="p-icon"><FaArrowLeftLong /></div>
-                          <p className="prev-post"> Previous Post </p>
-                        </div>
+                       
 
                       </div>
 
 
-                      <div className="prev-icon">
-                        <p className="next-post"> Next Post        </p>
-                        <div className="n-icon"> <FaArrowRightLong /></div>
-                      </div>
+                     
 
 
                     </div>
