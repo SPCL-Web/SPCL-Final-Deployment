@@ -157,7 +157,7 @@ const CreateBlog = () => {
 
         toast.success("Blog created successfully");
         // console.log(response);
-        navigate("/all-blog");
+        // navigate("/all-blog");
 
       } catch (error) {
         console.log("Error While creating Blog", error);
